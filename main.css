@@ -118,7 +118,7 @@ dev-tagline {
 
 .heading-info button:hover {
   cursor: pointer;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.2);
 }
 
 @media (max-width: 1675px) {
