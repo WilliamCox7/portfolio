@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./heading.css">
     <link rel="stylesheet" href="./about.css">
     <link rel="stylesheet" href="./skills.css">
+    <link rel="stylesheet" href="./projects.css">
+    <link rel="stylesheet" href="./experiences.css">
   </head>
   <body>
 
@@ -75,7 +77,8 @@
       <section class="skills-info">
         <h1>My Skills</h1>
         <p>
-          
+          One skill I have that doesn't have a logo is my ability to learn.
+          Many of these I taught myself. I can adapt to any work setting.
         </p>
         <button>View My Projects</button>
       </section>
@@ -320,31 +323,32 @@
         </div>
       </div>
 
-      <projects>
-        <project-one>
-          <project-one-info>
-            <project-one-headline></project-one-headline>
-            <project-one-tagline></project-one-tagline>
-            <button>View Next Project</button>
-          </project-one-info>
-        </project-one>
-        <project-two>
-          <project-two-info>
-            <project-two-headline></project-two-headline>
-            <project-two-tagline></project-two-tagline>
-            <button>View Next Project</button>
-          </project-two-info>
-        </project-two>
-        <project-three>
-          <project-three-info>
-            <project-three-headline></project-three-headline>
-            <project-three-tagline></project-three-tagline>
-            <button>View My Experiences</button>
-          </project-three-info>
-        </project-three>
-      </projects>
+      <light-blue-card></light-blue-card>
 
-      <experience>
+      <div class="projects">
+        <project-cards>
+          <div class="housingfilter">
+            <img src="./images/housingfilter.png" />
+          </div>
+          <div class="ucritic">
+            <img src="./images/ucritic.png" />
+          </div>
+        </project-cards>
+        <red-card></red-card>
+        <div class="projects-info">
+          <h1>My Projects</h1>
+          <p>
+            I'm always building something. Whether it is a web-app made for finding
+            student housing or a comprehensive site for film critics, I'm in the middle
+            of it.
+          </p>
+          <a href="http://www.byuhousingfilter.com" target="_blank">http://www.byuhousingfilter.com</a>
+          <a href="https://williamcox7.github.io/UCritic_v2/#/" target="_blank">https://williamcox7.github.io/UCritic_v2</a>
+          <button>View Experience</button>
+        </div>
+      </div>
+
+      <div class="experiences">
         <experience-one>
           <experience-one-info>
             <experience-one-headline></experience-one-headline>
@@ -366,7 +370,7 @@
             <button>View Next Experience</button>
           </experience-three-info>
         </experience-three>
-      </experience>
+      </div>
 
       <contact>
         <social-media></social-media>
