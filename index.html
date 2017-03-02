@@ -6,6 +6,8 @@
     <title>William Cox</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./heading.css">
+    <link rel="stylesheet" href="./about.css">
   </head>
   <body>
 
@@ -25,25 +27,49 @@
 
     <main>
 
-      <heading>
+      <heading-card></heading-card>
 
-      </heading>
-      <div class="heading-info">
+      <section class="heading">
           <img src="https://media.licdn.com/media/AAEAAQAAAAAAAAREAAAAJDVkZDk3ZjBhLTYwNDgtNDI2Yy1hYjQ0LTgyZjVhNGQxOTQzMQ.jpg"/>
-          <div class="dev-info">
-            <dev-name>William Cox</dev-name>
-            <dev-headline>Full Stack Web Developer</dev-headline>
-            <dev-tagline>Hi, I'm Will. I love Jeeping, film, and the great outdoors. And I'm a web dev.</dev-tagline>
+          <div class="my-intro">
+            <div class="my-name">William Cox</div>
+            <div class="my-headline">Full Stack Web Developer</div>
+            <div class="my-tagline">Hi, I'm Will. I love Jeeping, film, and the great outdoors. And I'm a web dev.</div>
             <button>About Me</button>
           </div>
-      </div>
+      </section>
 
-      <about-me>
-        <about-info>
-          <about-summary></about-summary>
-          <button>View My Skills</button>
-        </about-info>
-      </about-me>
+      <section class="about">
+        <div class="about-info">
+          <div class="about-summary">
+            <h1>Who I Am</h1>
+            <p>
+              I am a Utah native that enjoys watching/playing sports,
+              the outdoors, and anything computer related. Moab is a
+              frequent destination for me and my FJ Cruiser. I like
+              testing it out on the landscape and scaring myself from
+              time to time. I also bring along my Nikon just in case I
+              run into anything spectacular.
+            </p>
+            <p>
+              As a developer, I have
+              worked on a wide variety of projects. From Android app
+              development in Android studio to Visual Basic Applications
+              for excel and Microsoft office. I currently am focusing on
+              web development using the Angular frameworks or React libraries.
+            </p>
+            <button>View My Skills</button>
+          </div>
+        </div>
+        <about-cards>
+          <red-video>
+            <!-- autoplay loop -->
+            <video  muted><source src="./fjvid.mp4" type="video/mp4"/></video>
+          </red-video>
+          <turq-card></turq-card>
+          <fuschia-card></fuschia-card>
+        </about-cards>
+      </section>
 
       <skills>
         <skills-info>
