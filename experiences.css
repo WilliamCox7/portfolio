@@ -1,4 +1,473 @@
 .experiences {
   width: 100%;
-  height: 600px;
+  height: 1200px;
+  margin-top: 300px;
+}
+
+timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+timeline h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  margin-top: -30px;
+  position: absolute;
+  margin-left: -410px;
+}
+
+timeline p {
+  width: 415px;
+  color: white;
+  margin-left: -424px;
+  margin-top: 68px;
+  position: absolute;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+timeline circle {
+  width: 25px;
+  height: 25px;
+  border: solid 2px black;
+  border-radius: 50%;
+}
+
+timeline div {
+  border: solid 1px black;
+}
+
+circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-devmountain {
+  border-color: #2bade0;
+  color: #2bade0;
+}
+
+.div-devmountain {
+  width: 1px;
+  height: 175px;
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#2bade0), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #2bade0, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.connect-devmountain {
+  width: 1px;
+  height: 56px;
+  position: absolute;
+  margin-top: -13px;
+  margin-left: 102px;
+  transform: rotate(-90deg);
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#2bade0), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #2bade0, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.Msp0 {
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.Msp1 {
+  margin-left: 10px;
+}
+
+.card-devmountain {
+  background: #2bade0;
+  position: absolute;
+  overflow: hidden;
+  width: 540px;
+  margin-top: -25px;
+  margin-left: 400px;
+  height: 315px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+.card-devmountain img {
+  width: 100%;
+}
+
+.circle-vivint {
+  border-color: #ed6539;
+  color: #ed6539;
+}
+
+.div-vivint {
+  width: 1px;
+  height: 175px;
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#ed6539), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #ed6539, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.connect-vivint {
+  width: 1px;
+  height: 67px;
+  position: absolute;
+  margin-top: 186px;
+  margin-left: -100px;
+  transform: rotate(-270deg);
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#ed6539), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #ed6539, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.Ssp0 {
+  margin-right: 17px;
+  margin-left: -18px;
+}
+
+.Ssp1 {
+  margin-left: 14px;
+}
+
+.card-vivint {
+  background: #ed6539;
+  position: absolute;
+  width: 540px;
+  margin-top: 175px;
+  overflow: hidden;
+  margin-left: -400px;
+  height: 315px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+.card-vivint img {
+  width: 100%;
+}
+
+.circle-byu {
+  border-color: #d4af7f;
+  color: #d4af7f;
+}
+
+.div-byu {
+  width: 1px;
+  height: 175px;
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#d4af7f), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.connect-byu {
+  width: 1px;
+  height: 102px;
+  position: absolute;
+  margin-top: 372px;
+  margin-left: 85px;
+  transform: rotate(-90deg);
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#d4af7f), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.Ysp0 {
+  margin-right: 15px;
+  margin-left: 2px;
+}
+
+.Ysp1 {
+  margin-left: 15px;
+}
+
+.card-byu {
+  background: #d4af7f;
+  position: absolute;
+  width: 540px;
+  margin-top: 375px;
+  overflow: hidden;
+  margin-left: 400px;
+  height: 315px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+.card-byu img {
+  width: 100%;
+}
+
+.circle-essex {
+  border-color: #c75a5a;
+  color: #c75a5a;
+}
+
+.div-essex {
+  width: 1px;
+  height: 175px;
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#c75a5a), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.connect-essex {
+  width: 1px;
+  height: 67px;
+  position: absolute;
+  margin-top: 593px;
+  margin-left: -98px;
+  transform: rotate(-270deg);
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#c75a5a), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.card-essex {
+  background: #c75a5a;
+  position: absolute;
+  width: 540px;
+  margin-top: 575px;
+  overflow: hidden;
+  margin-left: -400px;
+  height: 315px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+.card-essex img {
+  width: 100%;
+}
+
+.Xsp0 {
+  margin-right: 15px;
+  margin-left: 9px;
+}
+
+.Xsp1 {
+  margin-left: 10px;
+}
+
+.circle-utahstate {
+  border-color: #3d6d99;
+  color: #3d6d99;
+}
+
+.div-utahstate {
+  width: 1px;
+  height: 175px;
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#3d6d99), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.connect-utahstate {
+  width: 1px;
+  height: 94px;
+  position: absolute;
+  margin-top: 785px;
+  margin-left: 95px;
+  transform: rotate(-90deg);
+  border-style: solid;
+   -webkit-border-image:
+     -webkit-gradient(linear, 0 0, 0 100%, from(#3d6d99), to(rgba(0, 0, 0, 0))) 1 100%;
+   -webkit-border-image:
+     -webkit-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+   -moz-border-image:
+     -moz-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+   -o-border-image:
+     -o-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+   border-image:
+     linear-gradient(to bottom, #3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.card-utahstate {
+  background: #3d6d99;
+  position: absolute;
+  width: 540px;
+  margin-top: 775px;
+  overflow: hidden;
+  margin-left: 400px;
+  height: 315px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+.card-utahstate img {
+  width: 100%;
+}
+
+.Usp0 {
+  margin-right: 15px;
+  margin-left: -8px;
+}
+
+.Usp1 {
+  margin-left: 12px;
+}
+
+devmountain-text {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 373px;
+  height: 313px;
+  color: white;
+}
+
+devmountain-text pad {
+  padding: 5px;
+  background: rgba(60, 71, 84, 0.56);
+  line-height: 24px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+vivint-text {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 177px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 373px;
+  height: 313px;
+  color: white;
+}
+
+vivint-text pad {
+  padding: 5px;
+  background: rgba(101, 67, 51, 0.56);
+  line-height: 24px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+byu-text {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 377px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 373px;
+  height: 313px;
+  color: white;
+}
+
+byu-text pad {
+  padding: 5px;
+  background: rgba(101, 97, 48, 0.56);
+  line-height: 24px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+essex-text {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: 577px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 373px;
+  height: 313px;
+  color: white;
+}
+
+essex-text pad {
+  padding: 5px;
+  background: rgba(86, 29, 29, 0.56);
+  line-height: 24px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+
+utahstate-text {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 777px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 373px;
+  height: 313px;
+  color: white;
+}
+
+utahstate-text pad {
+  padding: 5px;
+  background: rgba(9, 23, 66, 0.56);
+  line-height: 24px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
 }

@@ -11,22 +11,9 @@
     <link rel="stylesheet" href="./skills.css">
     <link rel="stylesheet" href="./projects.css">
     <link rel="stylesheet" href="./experiences.css">
+    <link rel="stylesheet" href="./contact.css">
   </head>
   <body>
-
-    <nav>
-      <ul>
-        <li>A</li>
-        <div></div>
-        <li>S</li>
-        <div></div>
-        <li>P</li>
-        <div></div>
-        <li>E</li>
-        <div></div>
-        <li>C</li>
-      </ul>
-    </nav>
 
     <main>
 
@@ -38,11 +25,11 @@
             <div class="my-name">William Cox</div>
             <div class="my-headline">Full Stack Web Developer</div>
             <div class="my-tagline">Hi, I'm Will. I love Jeeping, film, and the great outdoors. And I'm a web dev.</div>
-            <button>About Me</button>
+            <a href="#1"><button>About Me</button></a>
           </div>
       </section>
 
-      <section class="about">
+      <section id="1" class="about">
         <div class="about-info">
           <div class="about-summary">
             <h1>Who I Am</h1>
@@ -61,26 +48,25 @@
               for excel and Microsoft office. I currently am focusing on
               web development using the Angular frameworks or React libraries.
             </p>
-            <button>View My Skills</button>
+            <a href="#2"><button>View My Skills</button></a>
           </div>
         </div>
         <about-cards>
           <red-video>
-            <!-- autoplay loop -->
-            <video  muted><source src="./fjvid.mp4" type="video/mp4"/></video>
+            <video loop muted><source src="./fjvid.mp4" type="video/mp4"/></video>
           </red-video>
           <turq-card></turq-card>
           <fuschia-card></fuschia-card>
         </about-cards>
       </section>
 
-      <section class="skills-info">
+      <section id="2" class="skills-info">
         <h1>My Skills</h1>
         <p>
           One skill I have that doesn't have a logo is my ability to learn.
           Many of these I taught myself. I can adapt to any work setting.
         </p>
-        <button>View My Projects</button>
+        <a href="#3"><button>View My Projects</button></a>
       </section>
 
       <div class="skills">
@@ -325,7 +311,7 @@
 
       <light-blue-card></light-blue-card>
 
-      <div class="projects">
+      <div id="3" class="projects">
         <project-cards>
           <div class="housingfilter">
             <img src="./images/housingfilter.png" />
@@ -344,41 +330,93 @@
           </p>
           <a href="http://www.byuhousingfilter.com" target="_blank">http://www.byuhousingfilter.com</a>
           <a href="https://williamcox7.github.io/UCritic_v2/#/" target="_blank">https://williamcox7.github.io/UCritic_v2</a>
-          <button>View Experience</button>
+          <a href="#4"><button>View Experience</button></a>
         </div>
       </div>
 
-      <div class="experiences">
-        <experience-one>
-          <experience-one-info>
-            <experience-one-headline></experience-one-headline>
-            <experience-one-tagline></experience-one-tagline>
-            <button>View Next Experience</button>
-          </experience-one-info>
-        </experience-one>
-        <experience-two>
-          <experience-two-info>
-            <experience-two-headline></experience-two-headline>
-            <experience-two-tagline></experience-two-tagline>
-            <button>View Next Experience</button>
-          </experience-two-info>
-        </experience-two>
-        <experience-three>
-          <experience-three-info>
-            <experience-three-headline></experience-three-headline>
-            <experience-three-tagline></experience-three-tagline>
-            <button>View Next Experience</button>
-          </experience-three-info>
-        </experience-three>
+      <div id="4" class="experiences">
+        <timeline>
+          <h1>My Experience</h1>
+          <p>
+            What have I been up to?
+          </p>
+          <circle class="circle-devmountain"><span class="Msp0">Dev</span>M<span class="Msp1">ountain</span></circle>
+          <div class="div-devmountain"></div>
+          <div class="connect-devmountain"></div>
+          <circle class="circle-vivint"><span class="Ssp0">Vivint</span>S<span class="Ssp1">olar</span></circle>
+          <div class="div-vivint"></div>
+          <div class="connect-vivint"></div>
+          <circle class="circle-byu"><span class="Ysp0">B</span>Y<span class="Ysp1">U</span></circle>
+          <div class="div-byu"></div>
+          <div class="connect-byu"></div>
+          <circle class="circle-essex"><span class="Xsp0">Essex</span>M<span class="Xsp1">ortgage</span></circle>
+          <div class="div-essex"></div>
+          <div class="connect-essex"></div>
+          <circle class="circle-utahstate"><span class="Usp0">Utah</span>S<span class="Usp1">tate</span></circle>
+          <div class="div-utahstate"></div>
+          <div class="connect-utahstate"></div>
+          <span class="card-devmountain"><img src="./images/devmountain.jpg" /></span>
+          <devmountain-text>
+            <pad>
+              DevMountain is the glue that holds all of my experiences together.
+              This immersive program taught me how to take what I've learned and produce
+              something professionaly.
+            </pad>
+          </devmountain-text>
+          <span class="card-vivint"><img src="./images/vivint.jpg" /></span>
+          <vivint-text>
+            <pad>
+              While I managed 5 offices at corperate, I built programs that both
+              saved the company time per account and the need to hire extra personel.
+              Estimated savings are around $368,000/yr.
+            </pad>
+          </vivint-text>
+          <span class="card-byu"><img src="./images/byu.jpg" /></span>
+          <byu-text>
+            <pad>
+              Majoring in CS, I took several classes that taught me the theory in programming.
+              I'm not just a front-end developer, I'm full stack.
+            </pad>
+          </byu-text>
+          <span class="card-essex"><img src="./images/essex.jpg" /></span>
+          <essex-text>
+            <pad>
+              Starting in a little call center, I quickly climbed the ranks to become a loan officer.
+              Even though this call center job wasn't much, I made the most of it and was very
+              successful.
+            </pad>
+          </essex-text>
+          <span class="card-utahstate"><img src="./images/utahstate.jpg" /></span>
+          <utahstate-text>
+            <pad>
+              I barely even set foot on campus because I graduated with my associates degree
+              in high school. I was duely awarded a scholarship that paid 70% tuition by the
+              state of Utah.
+            </pad>
+          </utahstate-text>
+        </timeline>
       </div>
 
-      <contact>
-        <social-media></social-media>
-        <contact-info></contact-info>
-      </contact>
+      <div class="contact">
+        <contact-info>
+          <div class="c-info">
+            <span>willubyu7@gmail.com</span>
+            <span> • </span>
+            <span>435-535-6811</span>
+          </div>
+        </contact-info>
+        <social-media>
+          <a href="https://www.facebook.com/william.cox.3994885" target="_blank"><img src="./images/fb.svg" /></a>
+          <a href="https://github.com/WilliamCox7" target="_blank"><img src="./images/github.svg" /></a>
+          <a href="https://twitter.com/Collegekidsays1" target="_blank"><img src="./images/tw.svg" /></a>
+          <a href="https://www.linkedin.com/in/william-cox/" target="_blank"><img src="./images/in.svg" /></a>
+          <a href="https://www.instagram.com/willubyu7/" target="_blank"><img id="insta" src="./images/insta.png" /></a>
+        </social-media>
+      </div>
 
     </main>
 
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

@@ -5,38 +5,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-nav {
-  display: flex;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  justify-content: center;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  padding: 34px 0px;
-  width: calc(100% - 265px);
-}
-
-nav ul li {
-  border: solid 1px;
-  width: 25px;
-  height: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-
-nav ul div {
-  width: 19%;
-  height: 0px;
-  margin: 11px;
-  border-bottom: solid 1px;
-}
-
 main {
   width: calc(100% - 265px);
   max-width: 1440px;
