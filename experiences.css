@@ -89,6 +89,7 @@ circle {
 
 .card-devmountain {
   position: relative;
+  box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
 }
 
 .card-devmountain .image-text p {
@@ -97,6 +98,7 @@ circle {
 
 .card-vivint {
   position: relative;
+  box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
 }
 
 .card-vivint .image-text p {
@@ -105,6 +107,7 @@ circle {
 
 .card-byu {
   position: relative;
+  box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
 }
 
 .card-byu .image-text p {
@@ -113,6 +116,7 @@ circle {
 
 .card-essex {
   position: relative;
+  box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
 }
 
 .card-essex .image-text p {
@@ -121,6 +125,7 @@ circle {
 
 .card-utahstate {
   position: relative;
+  box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
 }
 
 .card-utahstate .image-text p {
