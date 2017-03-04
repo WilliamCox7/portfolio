@@ -2,90 +2,148 @@
   width: 100%;
   height: 1200px;
   margin-top: 300px;
-}
-
-timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-timeline h1 {
+.section-1 {
+  width: 470px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-1 div {
+  margin-bottom: 134px;
+}
+
+.section-1 img {
+  width: 100%;
+}
+
+.section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.section-2 circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.section-1 h1 {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 60px;
-  margin-top: -30px;
-  position: absolute;
-  margin-left: -410px;
 }
 
-timeline p {
+.section-1 .exp-tagline {
   width: 415px;
   color: white;
-  margin-left: -424px;
-  margin-top: 68px;
   position: absolute;
+  margin-top: 20px;
   font-size: 22px;
   line-height: 28px;
 }
 
-timeline circle {
-  width: 25px;
-  height: 25px;
-  border: solid 2px black;
-  border-radius: 50%;
+.image-text {
+  position: absolute;
+  margin-top: -218px;
+  padding: 40px;
+  color: white;
 }
 
-timeline div {
-  border: solid 1px black;
+.image-text p {
+  padding: 5px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card-devmountain {
+  position: relative;
+}
+
+.card-devmountain .image-text p {
+  background: rgba(38, 97, 119, 0.65);
+}
+
+.card-vivint {
+  position: relative;
+}
+
+.card-vivint .image-text p {
+  background: rgba(152, 85, 0, 0.65);
+}
+
+.card-byu {
+  position: relative;
+}
+
+.card-byu .image-text p {
+  background: rgba(148, 142, 66, 0.65);
+}
+
+.card-essex {
+  position: relative;
+}
+
+.card-essex .image-text p {
+  background: rgba(144, 43, 43, 0.65);
+}
+
+.card-utahstate {
+  position: relative;
+}
+
+.card-utahstate .image-text p {
+  background: rgba(44, 71, 105, 0.65);
 }
 
 .circle-devmountain {
-  border-color: #2bade0;
+  border: solid 2px #2bade0;
   color: #2bade0;
+  position: relative;
 }
 
-.div-devmountain {
+.line-devmountain {
   width: 1px;
   height: 175px;
   border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#2bade0), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #2bade0, rgba(0, 0, 0, 0)) 1 100%;
-}
-
-.connect-devmountain {
-  width: 1px;
-  height: 56px;
-  position: absolute;
-  margin-top: -13px;
-  margin-left: 102px;
-  transform: rotate(-90deg);
-  border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#2bade0), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#2bade0, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #2bade0, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image:
+  linear-gradient(to bottom, #2bade0, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  -webkit-linear-gradient(top, #2bade0, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  linear-gradient(to bottom, #2bade0, rgba(0, 0, 0, 0)) 1 100%;
+  border-right: none;
 }
 
 .Msp0 {
@@ -97,60 +155,22 @@ circle {
   margin-left: 10px;
 }
 
-.card-devmountain {
-  background: #2bade0;
-  position: absolute;
-  overflow: hidden;
-  width: 540px;
-  margin-top: -25px;
-  margin-left: 400px;
-  height: 315px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-.card-devmountain img {
-  width: 100%;
-}
-
 .circle-vivint {
-  border-color: #ed6539;
+  border: solid 2px #ed6539;
   color: #ed6539;
 }
 
-.div-vivint {
+.line-vivint {
   width: 1px;
   height: 175px;
   border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#ed6539), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #ed6539, rgba(0, 0, 0, 0)) 1 100%;
-}
-
-.connect-vivint {
-  width: 1px;
-  height: 67px;
-  position: absolute;
-  margin-top: 186px;
-  margin-left: -100px;
-  transform: rotate(-270deg);
-  border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#ed6539), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#ed6539, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #ed6539, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image:
+  linear-gradient(to bottom, #ed6539, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  -webkit-linear-gradient(top, #ed6539, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  linear-gradient(to bottom, #ed6539, rgba(0, 0, 0, 0)) 1 100%;
+  border-right: none;
 }
 
 .Ssp0 {
@@ -162,60 +182,22 @@ circle {
   margin-left: 14px;
 }
 
-.card-vivint {
-  background: #ed6539;
-  position: absolute;
-  width: 540px;
-  margin-top: 175px;
-  overflow: hidden;
-  margin-left: -400px;
-  height: 315px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-.card-vivint img {
-  width: 100%;
-}
-
 .circle-byu {
-  border-color: #d4af7f;
+  border: solid 2px #d4af7f;
   color: #d4af7f;
 }
 
-.div-byu {
+.line-byu {
   width: 1px;
   height: 175px;
   border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#d4af7f), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #d4af7f, rgba(0, 0, 0, 0)) 1 100%;
-}
-
-.connect-byu {
-  width: 1px;
-  height: 102px;
-  position: absolute;
-  margin-top: 372px;
-  margin-left: 85px;
-  transform: rotate(-90deg);
-  border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#d4af7f), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#d4af7f, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image:
+  linear-gradient(to bottom, #d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  -webkit-linear-gradient(top, #d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  linear-gradient(to bottom, #d4af7f, rgba(0, 0, 0, 0)) 1 100%;
+  border-right: none;
 }
 
 .Ysp0 {
@@ -227,75 +209,22 @@ circle {
   margin-left: 15px;
 }
 
-.card-byu {
-  background: #d4af7f;
-  position: absolute;
-  width: 540px;
-  margin-top: 375px;
-  overflow: hidden;
-  margin-left: 400px;
-  height: 315px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-.card-byu img {
-  width: 100%;
-}
-
 .circle-essex {
-  border-color: #c75a5a;
+  border: solid 2px #c75a5a;
   color: #c75a5a;
 }
 
-.div-essex {
+.line-essex {
   width: 1px;
   height: 175px;
   border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#c75a5a), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-}
-
-.connect-essex {
-  width: 1px;
-  height: 67px;
-  position: absolute;
-  margin-top: 593px;
-  margin-left: -98px;
-  transform: rotate(-270deg);
-  border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#c75a5a), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #c75a5a, rgba(0, 0, 0, 0)) 1 100%;
-}
-
-.card-essex {
-  background: #c75a5a;
-  position: absolute;
-  width: 540px;
-  margin-top: 575px;
-  overflow: hidden;
-  margin-left: -400px;
-  height: 315px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-.card-essex img {
-  width: 100%;
+  -o-border-image:
+  linear-gradient(to bottom, #c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  -webkit-linear-gradient(top, #c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  linear-gradient(to bottom, #c75a5a, rgba(0, 0, 0, 0)) 1 100%;
+  border-right: none;
 }
 
 .Xsp0 {
@@ -308,59 +237,21 @@ circle {
 }
 
 .circle-utahstate {
-  border-color: #3d6d99;
+  border: solid 2px #3d6d99;
   color: #3d6d99;
 }
 
-.div-utahstate {
+.line-utahstate {
   width: 1px;
   height: 175px;
   border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#3d6d99), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-}
-
-.connect-utahstate {
-  width: 1px;
-  height: 94px;
-  position: absolute;
-  margin-top: 785px;
-  margin-left: 95px;
-  transform: rotate(-90deg);
-  border-style: solid;
-   -webkit-border-image:
-     -webkit-gradient(linear, 0 0, 0 100%, from(#3d6d99), to(rgba(0, 0, 0, 0))) 1 100%;
-   -webkit-border-image:
-     -webkit-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-   -moz-border-image:
-     -moz-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-   -o-border-image:
-     -o-linear-gradient(#3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-   border-image:
-     linear-gradient(to bottom, #3d6d99, rgba(0, 0, 0, 0)) 1 100%;
-}
-
-.card-utahstate {
-  background: #3d6d99;
-  position: absolute;
-  width: 540px;
-  margin-top: 775px;
-  overflow: hidden;
-  margin-left: 400px;
-  height: 315px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-.card-utahstate img {
-  width: 100%;
+  -o-border-image:
+  linear-gradient(to bottom, #3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  -webkit-linear-gradient(top, #3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+  linear-gradient(to bottom, #3d6d99, rgba(0, 0, 0, 0)) 1 100%;
+  border-right: none;
 }
 
 .Usp0 {
@@ -370,104 +261,4 @@ circle {
 
 .Usp1 {
   margin-left: 12px;
-}
-
-devmountain-text {
-  position: absolute;
-  margin-left: 400px;
-  margin-top: -24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  width: 373px;
-  height: 313px;
-  color: white;
-}
-
-devmountain-text pad {
-  padding: 5px;
-  background: rgba(60, 71, 84, 0.56);
-  line-height: 24px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-vivint-text {
-  position: absolute;
-  margin-left: -400px;
-  margin-top: 177px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  width: 373px;
-  height: 313px;
-  color: white;
-}
-
-vivint-text pad {
-  padding: 5px;
-  background: rgba(101, 67, 51, 0.56);
-  line-height: 24px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-byu-text {
-  position: absolute;
-  margin-left: 400px;
-  margin-top: 377px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  width: 373px;
-  height: 313px;
-  color: white;
-}
-
-byu-text pad {
-  padding: 5px;
-  background: rgba(101, 97, 48, 0.56);
-  line-height: 24px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-essex-text {
-  position: absolute;
-  margin-left: -400px;
-  margin-top: 577px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  width: 373px;
-  height: 313px;
-  color: white;
-}
-
-essex-text pad {
-  padding: 5px;
-  background: rgba(86, 29, 29, 0.56);
-  line-height: 24px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-}
-
-utahstate-text {
-  position: absolute;
-  margin-left: 400px;
-  margin-top: 777px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 18px;
-  width: 373px;
-  height: 313px;
-  color: white;
-}
-
-utahstate-text pad {
-  padding: 5px;
-  background: rgba(9, 23, 66, 0.56);
-  line-height: 24px;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
 }

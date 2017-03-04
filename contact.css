@@ -8,7 +8,9 @@
 }
 
 social-media {
-  position: absolute;
+  position: absolute; 
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 53px;
   width: 1200px;
@@ -16,7 +18,8 @@ social-media {
   right: 0;
   left: 0;
   padding: 40px;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 social-media a {
@@ -28,17 +31,24 @@ social-media a {
 }
 
 contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .c-info {
   width: 423px;
   padding-top: 70px;
   padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-left: -50px;
   color: white;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }

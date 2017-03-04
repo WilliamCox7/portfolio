@@ -3,10 +3,16 @@
   width: 600px;
   margin-left: 90px;
   margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 88px;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   z-index: 4;
   height: 530px;
   background: #4a8a29;
@@ -68,6 +74,8 @@
 }
 
 skill-hexagons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: -39px;
   width: 0px;
