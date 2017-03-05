@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.about-info { 
+.about-info {
   position: absolute;
   margin-top: 42px;
 }
@@ -23,35 +23,24 @@
   font-size: 60px;
 }
 
+turq-card h1 {
+  display: none;
+}
+
+fuschia-card p {
+  display: none;
+}
+
+fuschia-card a {
+  display: none;
+}
+
 .about-info p {
   color: lightgray;
   font-size: 18px;
   padding: 5px;
-  width: 536px;
-  text-align: justify;
-}
-
-.about-info button {
-  width: 200px;
-  padding: 20px;
-  border-radius: 40px;
-  border: solid 3px #4a8a29;
-  background: transparent;
-  margin-top: 30px;
-  margin-left: 4px;
-  font-size: 14px;
-  color: white;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  -webkit-transition-property: background;
-  transition-property: background;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-.about-info button:hover {
-  cursor: pointer;
-  background: rgba(0,0,0,0.2);
+  line-height: 20px;
+  width: 36%;
 }
 
 about-cards {
@@ -95,4 +84,54 @@ fuschia-card {
   position: absolute;
   z-index: 1;
   box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 1490px) {
+  .about-summary {
+    margin-left: 30px;
+  }
+  .about {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .about-summary {
+    display: none;
+  }
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+    margin-top: -90px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -moz-flex-pack: center;
+            justify-content: center;
+  }
+  about-cards {
+    width: 500px;
+    right: inherit;
+    position: relative;
+    margin-right: 0px;
+  }
+  turq-card h1 {
+    display: block;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 60px;
+  }
+  fuschia-card p {
+    display: block;
+    margin-top: 390px;
+    padding: 52px;
+    color: white;
+    line-height: 20px;
+  }
+  fuschia-card a {
+    display: block;
+  }
 }

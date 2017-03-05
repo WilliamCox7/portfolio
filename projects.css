@@ -1,7 +1,7 @@
 .projects {
   width: 100%;
   position: relative;
-  height: 100%; 
+  height: 100%;
   margin-top: 1000px;
   margin-left: -20px;
 }
@@ -22,16 +22,75 @@
   box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
 }
 
+red-card-hidden {
+  display: none;
+  width: 465px;
+  height: 435px;
+  z-index: 2;
+  position: absolute;
+  margin-top: -275px;
+  margin-left: 305px;
+  background: #821e1e;
+  box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
+}
+
+.all-projects {
+  margin-left: calc((100% - 770px) / 2);
+  position: relative;
+}
+
+red-card-hidden h1 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  padding: 50px;
+}
+
+red-card-hidden p {
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 50px;
+  padding: 0px 50px;
+}
+
+red-card-hidden a {
+  color: #d47145;
+  font-size: 18px;
+  padding: 0px 50px;
+}
+
+red-card-hidden a:visited {
+  color: #b32f2f;
+}
+
 red-card {
   position: absolute;
   width: 305px;
   height: 260px;
-  margin: auto;
+  margin-left: 510px;
   margin-top: -400px;
   right: 0;
   left: 0;
   background: #821e1e;
   box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
+}
+
+.ucritic-hidden {
+  display: none;
+  position: absolute;
+  width: 305px;
+  height: 260px;
+  margin-left: 510px;
+  margin-top: -400px;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 0px 55px rgba(0,0,0,0.5);
+}
+
+.ucritic-hidden img {
+  width: 305px;
 }
 
 .projects-info {
@@ -47,7 +106,8 @@ red-card {
       justify-content: space-around;
   margin-top: -475px;
   margin-right: 50px;
-  height: 460px;
+  height: 314px;
+  width: 400px;
 }
 
 .projects-info h1 {
@@ -57,7 +117,7 @@ red-card {
 }
 
 .projects-info p {
-  width: 415px;
+  width: 100%;
   color: white;
   font-size: 18px;
   line-height: 28px;
@@ -72,24 +132,41 @@ red-card {
   color: #b32f2f;
 }
 
-.projects-info button {
-  width: 200px;
-  padding: 20px;
-  border-radius: 40px;
-  border: solid 3px #d47145;
-  background: transparent;
-  margin-left: 4px;
-  font-size: 14px;
-  color: white;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  -webkit-transition-property: background;
-  transition-property: background;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+@media (max-width: 1550px) {
+  .projects-info {
+    margin-right: 0px;
+  }
 }
 
-.projects-info button:hover {
-  cursor: pointer;
-  background: rgba(0,0,0,0.2);
+@media (max-width: 1530px) {
+  .ucritic {
+    display: none;
+  }
+  red-card {
+    display: none;
+  }
+  .ucritic-hidden {
+    display: block;
+  }
+  .housingfilter img {
+    z-index: 0;
+  }
+  red-card-hidden {
+    display: block;
+  }
+  .projects-info {
+    display: none;
+  }
+}
+
+@media (min-width: 1530px) {
+  .all-projects {
+    margin-left: 0px;
+  }
+}
+
+@media(max-width: 1490px) {
+  .projects {
+    margin-top: 1100px;
+  }
 }
