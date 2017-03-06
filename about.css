@@ -135,3 +135,30 @@ fuschia-card {
     display: block;
   }
 }
+
+@media (max-width: 975px) {
+  fuschia-card p {
+    width: 430px;
+  }
+  fuschia-card {
+    margin-top: -95px;
+    margin-left: -43px
+  }
+  turq-card {
+    margin-left: -45px;
+    margin-top: -175px;
+  }
+}
+
+@media (max-width: 350px) {
+  fuschia-card {
+    height: 630px;
+  }
+  fuschia-card p {
+    width: 355px;
+  }
+  turq-card h1 {
+    font-size: 48px;
+    margin-left: -62px;
+  }
+}
