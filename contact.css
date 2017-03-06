@@ -8,47 +8,41 @@
 }
 
 social-media {
-  position: absolute; 
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 53px;
-  width: 1200px;
   margin: auto;
   right: 0;
   left: 0;
-  padding: 40px;
+  padding: 18px;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      -webkit-box-pack: justify;
+          justify-content: space-around;
 }
 
 social-media a {
-  width: 56px;
+  width: 47px;
 }
 
 #insta {
-  height: 53px;
+  height: 45px;
+}
+
+#linkedin {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
 }
 
 contact-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 258px;
+  text-align: center;
 }
 
 .c-info {
-  width: 423px;
   padding-top: 70px;
   padding-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: -50px;
   color: white;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
 }
