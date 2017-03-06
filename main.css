@@ -9,9 +9,10 @@ main {
   width: calc(100% - 265px);
   max-width: 1440px;
   height: 100%;
+  position: relative;
   margin: auto;
   margin-top: 85px;
-  overflow: hidden; 
+  overflow: hidden;
   padding: 20px;
   background: url('blacktop.png');
   box-shadow: 0px 0px 20px;
