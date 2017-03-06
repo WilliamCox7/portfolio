@@ -51,8 +51,12 @@ red-card-hidden p {
   color: white;
   font-size: 18px;
   line-height: 28px;
-  margin-bottom: 50px;
+  margin-bottom: 18px;
   padding: 0px 50px;
+}
+
+.red-a {
+  padding: 10px 0px;
 }
 
 red-card-hidden a {
@@ -62,7 +66,7 @@ red-card-hidden a {
 }
 
 red-card-hidden a:visited {
-  color: #b32f2f;
+  color: #d47145;
 }
 
 red-card {
