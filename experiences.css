@@ -327,7 +327,7 @@ circle {
   .s1-info-hidden {
     display: block;
     width: calc(100% - 40px);
-    margin-top: 445px;
+    margin-top: 475px;
     text-align: center;
     position: absolute;
   }
@@ -336,7 +336,7 @@ circle {
     width: 100%;
   }
   .experiences {
-    margin-top: 570px;
+    margin-top: 630px;
   }
 }
 
