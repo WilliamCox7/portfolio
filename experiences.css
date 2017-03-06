@@ -365,14 +365,14 @@ circle {
 }
 
 @media(max-width: 580px) {
-   h1 {
-    font-size: 48px !important;
+  .s1-info-hidden h1 {
+    font-size: 48px;
   }
 }
 
 @media(max-width: 450px) {
-   h1 {
-    font-size: 36px !important;
+  .s1-info-hidden h1 {
+    font-size: 36px;
   }
 }
 

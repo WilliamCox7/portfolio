@@ -216,6 +216,7 @@ red-card-hidden img {
 
 @media (max-width: 420px) {
   red-card-hidden h1 {
+    font-size: 36px;
     padding: 50px 98px;
   }
   red-card-hidden p,

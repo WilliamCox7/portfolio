@@ -140,3 +140,30 @@ light-blue-card {
     height: 765px;
   }
 }
+
+@media (max-width: 915px) {
+  .skills-info {
+    background: transparent;
+    box-shadow: none;
+    margin-left: calc((100% - 470px) / 2);
+  }
+  .skills {
+    margin-top: 88px;
+  }
+}
+
+@media (max-width: 450px) {
+  .skills {
+    width: calc(100% + 40px);
+    margin-right: -20px;
+  }
+  .skills-info h1 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 350px) {
+  .skills-info p {
+    width: 94%;
+  }
+}
