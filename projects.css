@@ -188,6 +188,9 @@ red-card-hidden img {
   .all-projects {
     height: 300px;
   }
+  .experiences {
+    margin-top: 510px !important;
+  }
 }
 
 @media (max-width: 1100px) {
