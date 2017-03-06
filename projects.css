@@ -116,6 +116,12 @@ red-card {
   font-size: 60px;
 }
 
+.card-images {
+  display: none;
+  width: 100%;
+  margin-top: 35px;
+}
+
 .projects-info p {
   width: 100%;
   color: white;
@@ -130,6 +136,12 @@ red-card {
 
 .projects-info a:visited {
   color: #b32f2f;
+}
+
+red-card-hidden img {
+  width: 177px;
+  margin: 4px;
+  height: 167px;
 }
 
 @media (max-width: 1550px) {
@@ -168,5 +180,56 @@ red-card {
 @media(max-width: 1490px) {
   .projects {
     margin-top: 1100px;
+  }
+  .all-projects {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .housingfilter {
+    display: none;
+  }
+  .ucritic-hidden {
+    display: none;
+  }
+  .projects {
+    margin-left: 0px;
+  }
+  .all-projects {
+    margin-left: calc((100% - 460px) / 2);
+  }
+  red-card-hidden {
+    margin-left: 0px;
+    margin-top: 40px;
+    height: 600px;
+  }
+  .card-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 420px) {
+  red-card-hidden h1 {
+    padding: 50px 98px;
+  }
+  red-card-hidden p,
+  red-card-hidden a {
+    padding: 0px 98px;
+  }
+  red-card-hidden a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  red-card-hidden img {
+    width: 142px;
+    height: 123px;
   }
 }
