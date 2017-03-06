@@ -136,6 +136,12 @@ fuschia-card {
   }
 }
 
+@media (max-width: 1210px) {
+  .about {
+    margin-top: 300px;
+  }
+}
+
 @media (max-width: 975px) {
   fuschia-card p {
     width: 430px;
@@ -147,6 +153,12 @@ fuschia-card {
   turq-card {
     margin-left: -45px;
     margin-top: -175px;
+  }
+}
+
+@media (max-width: 450px) {
+  red-video {
+    box-shadow: none;
   }
 }
 
